@@ -24,7 +24,7 @@ You can of course compensate for this by setting negative offset on the track. H
 This is where my scripts come in handy!
 
 ## General description
-Load [track templates](https://github.com/3YY3/cinematic-studio-templates/tree/main/track_templates) as needed. Same goes for [REAticulate template](https://github.com/3YY3/cinematic-studio-templates/blob/main/Reaticulate.reabank), which instances are already located on the MIDI tracks.
+Load [track templates](https://github.com/3YY3/cinematic-studio-templates/tree/main/track_templates) as needed. Same goes for [REAticulate template](https://github.com/3YY3/cinematic-studio-templates/blob/main/Reaticulate.reabank), of which instances are already located on the MIDI tracks.
 
 [Legato scripts](https://github.com/3YY3/cinematic-studio-templates/tree/main/legato_scripts) are used while in MIDI editor window. They change the starting position of each note in active take so that it corresponds with the beat.
 If you intend to move every note in the take, do not select any of them. Just run the script and wait for magic to happen. If, however, you want to move only some of the notes, select them and run the script.
