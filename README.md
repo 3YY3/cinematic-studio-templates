@@ -1,4 +1,4 @@
-# cinematic-studio-templates
+# `cinematic-studio-templates`
 Ready-to-Play [Reaper](https://www.reaper.fm/) track templates, legato patches and REAticulate templates for [Cinematic Studio series](https://cinematicstudioseries.com/) Kontakt instruments.
 These templates have already -60 ms offset on MIDI tracks to allow you to work with the short articulations right away. The legato scripts then take care of long articulations delay (for an information on which is which take a look in the PDFs included with your Cinematic Studio libraries).
 All articulations are located on only one MIDI track per instrument thanks to [REAticulate](https://reaticulate.com/).
