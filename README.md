@@ -1,6 +1,6 @@
 # cinematic-studio-templates
 Ready-to-Play [Reaper](https://www.reaper.fm/) track templates, legato patches and REAticulate templates for [Cinematic Studio series](https://cinematicstudioseries.com/) Kontakt instruments.
-These templates have already -60 ms offset on MIDI tracks to allow you work with the short articulations right away. The legato scripts then take care of long articulations (for an information on which is which take a look in the PDFs included with your Cinematic Studio libraries).
+These templates have already -60 ms offset on MIDI tracks to allow you to work with the short articulations right away. The legato scripts then take care of long articulations delay (for an information on which is which take a look in the PDFs included with your Cinematic Studio libraries).
 All articulations are located on only one MIDI track per instrument thanks to [REAticulate](https://reaticulate.com/).
 
 ## What is CSS, CSSS, CSW and CSB? 
@@ -16,7 +16,7 @@ This legato skripts are tailored to be used with:
 
 You can use track templates and legato scripts even if you own only one or some of the CS libraries. If you have a different version of Kontakt, you can load multi instruments in your version from folder [kontakt-multis]
 
-Unless you are a masochist I strongly recommend using REAticulate. All articulations can be located on the same MIDI track that way (and in my templates they are).
+Unless you are a masochist, I strongly recommend using REAticulate. All articulations can be located on the same MIDI track that way (and in my templates they are).
 
 ## Why did I created the legato scripts?
 Since Cinematic Studio philosophy on the legato is to have true sample with the legato transition, this transition takes some time after you press the key. This creates quite a problem because legato notes are then not played in the right beat but always a little late. Thanks to this you need to manually edit most legato notes start positions in your composition. 
