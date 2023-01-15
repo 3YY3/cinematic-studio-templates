@@ -4,7 +4,7 @@ These templates have already -60 ms offset on MIDI tracks to allow you to work w
 All articulations are located on only one MIDI track per instrument thanks to [REAticulate](https://reaticulate.com/).
 
 ## What is CSS, CSSS, CSW and CSB? 
-Cinematic Studio series instruments are great tools for making orchestral/cinematic music. These four NI Kontakt instruments cover Strings, Woodwinds and Brass in orchestra, including solo instruments in more that enough cases.
+Cinematic Studio series instruments are great tools for making orchestral/cinematic music. Theese four NI Kontakt instruments cover Strings, Woodwinds and Brass in orchestra, including solo instruments in more that enough cases.
 
 ## Prerequisites
 This legato skripts are tailored to be used with:
