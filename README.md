@@ -13,6 +13,7 @@ This legato skripts are tailored to be used with:
 - CSW version 1.3.0
 - VST3 Kontakt 6 version 6.7.1
 - REAticulate
+- Reaper version 6 and higher
 
 You can use track templates and legato scripts even if you own only one or some of the CS libraries. If you have a different version of Kontakt (or if something went wrong), you can load multi instruments in your version from [this folder](https://github.com/3YY3/cinematic-studio-templates/tree/main/kontakt_multis).
 
@@ -24,7 +25,12 @@ You can of course compensate for this by setting negative offset on the track. H
 This is where my scripts come in handy!
 
 ## General description
-Load [track templates](https://github.com/3YY3/cinematic-studio-templates/tree/main/track_templates) as needed. Same goes for [REAticulate template](https://github.com/3YY3/cinematic-studio-templates/blob/main/Reaticulate.reabank), of which instances are already located on the MIDI tracks.
+Track templates all share the same structure: One main folder contains one instance of Kontakt. You control the instruments through one MIDI track per instrument. Articulations are handled through REAticulate. Sounds are routed to the Reaper so that you control one playback track for Main microphone, one for Room microphone (and one for OH microphone in case of woodwinds). Next you have one playback track with close microphones per instrument (2 tracks in case of strings v1.7 cause there are 2 spot microphones per instrument). 
+
+MIDI tracks are visible only in Track Control Panel, while playback tracks are visible only in Mixer Control Panel.
+
+## How to use
+Load [track templates](https://github.com/3YY3/cinematic-studio-templates/tree/main/track_templates) as needed. Same goes for [REAticulate template](https://github.com/3YY3/cinematic-studio-templates/blob/main/Reaticulate.reabank), of which instances are already located on the MIDI tracks. Load [legato scripts](https://github.com/3YY3/cinematic-studio-templates/tree/main/legato_scripts) into Reaper (I recommend creating a buttons in MIDI editor window toolbar or binding scripts on a key shortcut).
 
 [Legato scripts](https://github.com/3YY3/cinematic-studio-templates/tree/main/legato_scripts) are used while in MIDI editor window. They change the starting position of each note in active take so that it corresponds with the beat.
 If you intend to move every note in the take, do not select any of them. Just run the script and wait for magic to happen. If, however, you want to move only some of the notes, select them and run the script.
